@@ -14,7 +14,11 @@ h1 {
     font-weight: 400;
     font-size: 36px;
     line-height: 1.2em;
-    color: #505050;
+    background-color: #00d2c6;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 h2 {
     margin: 0 0 12px;
@@ -41,9 +45,26 @@ h4 {
     color: #505050;
 }
 .main-panel{
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 20px;
+  margin-right: 20px;
 }
 .category{
   color:#0072c6;
+}
+a {
+  color:#0072c6;
+  font-family: wf_segoe-ui_normal,"Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
 }
